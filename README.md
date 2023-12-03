@@ -29,3 +29,18 @@ It kind of helps being in a different timezone, it comes out at 6pm for me which
 * READ THE TASK - I made a bunch of stupid mistakes while working on it
 * I need to learn more about breaking out of loops, too many nested loops and removing IDs from a list isn't ideal
 * Could I be using regex here? Probably but I don't know how to use it yet
+
+
+## Day 3: Gear Ratios
+
+Well, I really need to work on my grid logic. I made a grid, and set up a check offsets function to test if a given position was valid (i.e had a symbol adjacent) and used that.
+
+One of the challenges i faced was trying to account for part numbers being multiple digits long. It took a while to get it to iterate forward to find the end of the number, and it then tests the offsets for each position the number occupies. 
+I also had to change the way i iterated through the list, when using a for loop it would catch the end of part numbers, i.e. given 123# it finds 123, then 12, then 1. I changed it to a while loop and it works fine now.
+
+Then part 2 was a real change, I spent too long trying to figure out a solution to it and eventually gave up and looked at the subreddit. I'm not sure i would have come up with the solution on my own, but i'm glad i saw it.
+At some point i'll come back to this and try and figure out a solution on my own, but for now i'm happy to move on and get some sleep.
+
+### My key takeaways
+* Grid logic is hard
+* 
