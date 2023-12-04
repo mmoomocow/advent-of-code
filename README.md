@@ -43,4 +43,17 @@ At some point i'll come back to this and try and figure out a solution on my own
 
 ### My key takeaways
 * Grid logic is hard
-* 
+
+
+## Day 4: Scratchcards 
+
+Part 1 was fairly trivial, once I got the string comprehension working. I'm not sure if there is a better way to do it, but it works so I'm happy with it. Although it took a bit of hitting my head against a wall to understand how to translate that "first match makes the card worth one point and each match after the first doubles the point value of that card." into code.
+
+Part 2 was more tricky, my initial solution ran for ~10 minutes, generating list 10s of millions of items long so it must have got stuck in a loop somewhere. 
+
+After a couple hours, I decided to give up and look at the subreddit for an answer. I've seen defaultdict mentioned a few times, but never used it myself, might be something to look into.
+
+### My key takeaways
+* defaultdict - What is it, how does it work, and how can i use it?
+* Translating maths into code
+* Adding items to the list that is being iterated through is a bad idea, leads to infinite loops and sadness
